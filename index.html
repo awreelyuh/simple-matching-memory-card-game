@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="cards.js" defer></script>
     <title>Aurelia's Matching Memory Card Game</title>
 </head>
+
 <body>
     <header id="main-header">
         <nav>
@@ -18,7 +21,7 @@
             </ul>
         </nav>
     </header>
-    
+
     <div class="instructions">
         <h1>How to play</h1>
         <p>Select any card to view it. Match all the pairs of identical cards to complete the level.</p>
@@ -26,21 +29,17 @@
         <p>Enjoy!</p>
     </div>
 
-    <div class="card">
-        <div class="card-inner">
-            <div class="card-front">
-
-            </div>
+    <div class="scene">
+        <div class="card">
+            <div class="card-front"></div>
             <div class="card-back">
                 <div class="image">
                     <img src="images/chill-walrus.jpg" class="card-img">
                 </div>
-            </div> 
+            </div>
         </div>
-    </div>
 
-    <div class="card">
-        <div class="card-inner">
+        <div class="card">
             <div class="card-front"></div>
             <div class="card-back">
                 <div class="image">
@@ -50,6 +49,8 @@
         </div>
     </div>
 
+    <footer>&copy; 2023 Aurelia Ang. All rights reserved.</footer>
+
 </body>
-<footer><small>&copy; 2023 Aurelia Ang - All rights reserved</small></footer>
+
 </html>
