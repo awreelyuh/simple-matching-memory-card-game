@@ -5,6 +5,15 @@ nav {
     position: relative;
 }
 
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
 #nav-links {
     display: none;
 }
