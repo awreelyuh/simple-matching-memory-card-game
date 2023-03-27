@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url(assets/fonts/DMSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(assets/fonts/DMSans-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(assets/fonts/DMSans-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: 'DM Sans', Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
 nav {
     width: 100%;
     overflow: hidden;
