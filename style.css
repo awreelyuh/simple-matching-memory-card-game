@@ -192,6 +192,9 @@ img {
     -webkit-backface-visibility: hidden;
 }
 
-.card-back {
-    transform: rotateY(180deg);
+@media only screen and (max-width: 500px) {
+    .card-front, .card-back, .card-img, .card {
+        width: 120px;
+        height: 120px;
+    }
 }
