@@ -153,9 +153,8 @@ img {
     border: solid 1px red;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 40px 0;
-    /* width: 200px;
-    height: 200px; */
 }
 
 .card {
