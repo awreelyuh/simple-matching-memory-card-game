@@ -138,33 +138,48 @@ img {
     border-radius: 10px;
 }
 
+.card-back {
+    background-color: aquamarine; /* fallback in case img doesn't load */
+    border-radius: 10px;
+}
+
 .card-img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
 }
 
-/* .scene {
+.scene {
     border: solid 1px red;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-} */
+    margin: 40px 0;
+    /* width: 200px;
+    height: 200px; */
+}
 
 .card {
+    width: 200px;
+    height: 200px;
     transition: transform 1s;
     transform-style: preserve-3d;
     position: relative;
     cursor: pointer;
+    perspective: 1000px;
+    margin: 10px;
 }
 
 .card.is-flipped {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .card-front, .card-back {
+    width: 100%;
+    height: 100%;
     position: absolute;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .card-back {
