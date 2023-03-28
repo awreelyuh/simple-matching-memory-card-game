@@ -143,3 +143,10 @@ img {
     height: 200px;
     border-radius: 10px;
 }
+
+.scene {
+    border: solid 1px red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
