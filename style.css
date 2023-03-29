@@ -33,6 +33,20 @@ footer {
     align-items: center;
 }
 
+p {
+    padding: 0 20px;
+}
+
+h1, h2 {
+    padding: 0 20px;
+}
+
+h1  {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.25;
+}
+
 /* NAVIGATION */
 nav {
     width: 100%;
