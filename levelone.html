@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="cards.js" defer></script>
+    <script src="menu.js" defer></script>
+    <script src="https://use.fontawesome.com/f6a7069589.js"></script>
+    <title>Aurelia's Matching Memory Card Game</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <nav role="navigation">
+            <div class="home">
+                <a href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i>&nbsp;Home</a>
+            </div>
+            <div id="nav-links">
+                <ul>
+                    <li><a href="levelone.html">Level 1</a></li>
+                    <li><a href="leveltwo.html">Level 2</a></li>
+                    <li><a href="levelthree.html">Level 3</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" class="menu" onclick="toggleMenu()">
+                <i class="fa fa-bars fa-lg" aria-hidden="true"></i>&nbsp; Menu
+            </a>
+        </nav>
+    </header>
+
+    <div class="level">
+        <h1>Level One</h1>
+    </div>
+
+    <div class="instructions">
+        <h2>How to play</h2>
+        <p>Match all the pairs of identical cards to complete the level. Select any card to view it.</p>
+        <p>Choose a different level from the menu.</p>
+        <p>Enjoy!</p>
+    </div>
+
+    <main>
+        <div class="scene">
+
+            <div class="card">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <div class="image">
+                        <img src="assets/images/walrus-on-beach.jpg" class="card-img" alt="A walrus on a beach">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <div class="image">
+                        <img src="assets/images/chill-walrus.jpg" class="card-img" alt="A walrus looking relaxed">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <div class="image">
+                        <img src="assets/images/stern-walrus.jpg" class="card-img"
+                            alt="A stern-looking walrus staring right at the camera">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <div class="image">
+                        <img src="assets/images/stern-walrus.jpg" class="card-img"
+                            alt="A stern-looking walrus staring right at the camera">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <div class="image">
+                        <img src="assets/images/walrus-on-beach.jpg" class="card-img" alt="A walrus on a beach">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <div class="image">
+                        <img src="assets/images/chill-walrus.jpg" class="card-img" alt="A walrus looking relaxed">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>&copy; 2023 Aurelia Ang. All rights reserved.</footer>
+
+</body>
+
+</html>
