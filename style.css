@@ -105,7 +105,7 @@ nav a {
     display: block;
     color: #fff;
     text-align: center;
-    padding: 14px 0 14px 0;
+    padding: 14px 0;
     text-decoration: none;
     width: 100%;
 }
@@ -133,6 +133,12 @@ nav a:focus {
     display: block;
     padding: 0 16px;
     text-decoration: none;
+}
+
+.home:hover {
+    background-color: #4f345a;
+    color: #fff;
+    transition: 0.4s;
 }
 
 @media only screen and (min-width: 768px) {
