@@ -27,10 +27,12 @@ body {
 }
 
 footer {
-    position: relative;
+    position: fixed;
+    bottom: 0;
     color: #fff;
     background-color: #333;
     height: 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
