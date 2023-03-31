@@ -89,9 +89,7 @@ nav a.icon {
     padding: 14px 16px;
 }
 
-nav a:hover, nav a:focus {
-    background-color: #ddd;
-    color: black;
+    transition: 0.4s;
 }
 
 .home {
@@ -139,8 +137,7 @@ nav a:hover, nav a:focus {
     }
 
     nav a:hover {
-        background-color: #ddd;
-        color: black;
+        transition: 0.4s;
     }
 
     nav a.icon {
