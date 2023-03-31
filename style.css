@@ -24,6 +24,7 @@ body {
     font-family: 'DM Sans', Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
     margin: 0;
+    background-color: #bbd3c3;
 }
 
 footer {
@@ -57,8 +58,8 @@ h1 {
 nav {
     width: 100%;
     overflow: hidden;
-    background-color: #333;
     position: relative;
+    background-color: #3E5145;
 }
 
 nav ul {
@@ -85,7 +86,7 @@ nav a {
 }
 
 nav a.menu {
-    background: #000;
+    background: #3E5145;
     display: block;
     position: absolute;
     right: 0;
@@ -94,18 +95,19 @@ nav a.menu {
     padding: 14px 16px;
 }
 
+nav a:hover,
+nav a:focus {
+    background-color: #4f345a;
+    color: #fff;
     transition: 0.4s;
 }
 
 .home {
-    text-indent: -2000px;
-    background-color: #000;
     color: #fff;
     float: left;
     display: block;
-    padding: 14px 16px;
+    padding: 0 16px;
     text-decoration: none;
-    width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -142,6 +144,8 @@ nav a.menu {
     }
 
     nav a:hover {
+        background-color: #4f345a;
+        color: #fff;
         transition: 0.4s;
     }
 
@@ -162,8 +166,7 @@ img {
 .card-front {
     width: 200px;
     height: 200px;
-    background-image: linear-gradient(135deg, aquamarine, darkorchid);
-    border-radius: 10px;
+    background-image: linear-gradient(135deg, #6e9985, #4f345a);
 }
 
 .card-back {
@@ -179,7 +182,6 @@ img {
 }
 
 .scene {
-    border: solid 1px red;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
