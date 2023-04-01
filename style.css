@@ -66,6 +66,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
     position: relative;
     left: 20px;
@@ -185,13 +186,17 @@ nav a:focus {
     }
 }
 
-/* INSTRUCTIONS ACCORDION */
+/* ACCORDION */
 .accordion {
     color: #fff;
     cursor: pointer;
     padding: 20px;
+    margin: 0;
     width: 100%;
     text-align: left;
+    text-justify: center;
+    font-size: 18px;
+    font-weight: bold;
     border: none;
     outline: none;
     transition: 0.4s;
@@ -200,15 +205,31 @@ nav a:focus {
     left: 0;
 }
 
-.active, .accordion:hover {
-    background-color: #3E5145;
+.accordion:after {
+    content: '\23F7';
+    font-size: 18px;
+    color: #fff;
+    float: right;
+    margin-left: 5px;
+}
+
+.active,
+.accordion:hover,
+.accordion:focus {
+    background-color: #4f345a;
+}
+
+.active:after {
+    content: '\23F6';
+    font-size: 18px;
 }
 
 .panel {
-    padding: 0 20px;
-    background-color: #333;
-    display: none;
+    background-color: #b18fbeb7;
+    color: #000;
     overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
 }
 
 /* CARDS */
