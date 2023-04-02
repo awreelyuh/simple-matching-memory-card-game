@@ -8,7 +8,7 @@ Alben has tested this card game extensively and given it a 10 out of 10.
 
 ## Project Features
 
-The required features of the final product turned out to be different from my initial project plan.
+Note: The required features of the final product turned out to be different from my initial project plan.
 
 - [x] Create a responsive menu with JavaScript
 - [x] Run PageSpeed Insights from google.com, get a score of 80 or better
